@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from pydantic import BaseModel
-from app.services.researcher import get_briefing
+from api.services.researcher import get_briefing
 
 router = APIRouter()
 
