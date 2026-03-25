@@ -1,30 +1,30 @@
-# the ai scout
+# proxy
+
+### the elevenhacks challenge
+built for the elevenagents x firecrawl hackathon, proxy solves the "pre-meeting panic." it turns real-time web data into a tactical voice briefing in under 30 seconds.
 
 ### the problem
-we have all been there. you are walking into a meeting, a pitch, or a networking event and you realize you do not actually know the latest news about the person across the table. searching manually takes too long, and you cannot do it while you are shaking hands.
+sales reps and recruiters waste hours on manual research. when meetings are back-to-back, you often walk in under-prepared. manual searching is impossible when you are on the move.
 
-### what is the ai scout?
-the ai scout is an autonomous voice agent designed to be your personal field researcher. instead of digging through tabs, you just talk to it. it uses real-time web scraping and advanced voice ai to find exactly what you need to know right before your meeting starts.
+### what is proxy?
+proxy is a digital chief of staff. it combines firecrawl’s real-time web extraction with elevenlabs conversational ai to deliver high-impact briefings—complete with icebreakers and landmines—via a natural voice interface.
 
 ### how it works
-this project connects three powerful layers to give you a seamless experience:
-* the brain: an elevenlabs conversational agent that understands context and speaks naturally.
-* the bridge: a fastapi backend
-* the eyes: firecrawl api, which performs deep web searches to find recent news, bios, and company updates.
+* the voice: elevenlabs conversational agent for low-latency, human-like dialogue.
+* the brain: fastapi backend orchestrating tool calls and data synthesis.
+* the eyes: firecrawl search api for deep, live web scrapes (news, linkedin, and updates).
 
 ### key features
-* real-time intelligence: it does not rely on old training data. it fetches news from the live web.
-* voice-first interface: hands-free operation so you can get briefed while you are on the move.
-* smart extraction: it identifies the "target" and the "topic" automatically from your speech.
+* tactical battlecards: provides a "silver bullet" icebreaker, a current "signal," and a "landmine" (what to avoid).
+* live simulation: roleplay the first 30 seconds of your meeting. proxy adopts the persona of your target using the scraped data.
+* real-time intelligence: bypasses stale llm training data with live 2026 web signals.
+* voice-first: hands-free operation for the "walk-to-the-meeting" window.
 
 ### technical stack
 * backend: python / fastapi
-* search engine: firecrawl
-* voice/nlp: elevenlabs conversational ai
-* frontend: tailwind css / html5
-
-### how to run it
---todo--
+* search/scraping: firecrawl api
+* voice/nlp: elevenlabs elevenagents
+* frontend: next.js / tailwind css
 
 ### why it matters
-in a world where information is everywhere, the person who has the best intel wins. the ai scout makes sure that person is always you.
+in high-stakes meetings, the person with the best intel wins. proxy ensures that person is always you.
